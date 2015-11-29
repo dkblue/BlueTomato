@@ -1,0 +1,211 @@
+/***********************************************************
+  GENERAL
+***********************************************************/
+
+*{
+    
+    margin: 0;
+    padding: 0;
+}
+
+
+.wrapper {
+    width:940px;
+    border-bottom: 1px dashed red;
+    margin: 0 auto;
+    
+}
+
+img {
+    max-width: 100%;
+}
+
+/***********************************************************
+  HEADER
+***********************************************************/
+
+header {
+    
+    background-color: #323136;
+}
+
+
+/***********************************************************
+  LOGO
+***********************************************************/
+
+
+#logo {
+    
+    display: inline-block;
+    margin-top: 0.5%;
+    margin-left: 5%;
+    margin-bottom: 0.4%;
+}
+
+/***********************************************************
+  nav bar
+***********************************************************/
+
+#navbar {
+    
+    display: inline-block;
+    float:right;
+    margin-top: 3.5%;
+    width: 60%;
+}
+
+
+#navbar li {
+    margin-bottom: 2%;
+    margin-right: 3%;
+    float:right;
+    list-style: none;
+    font-weight: bold;
+    font-size: 1.2em;
+    padding: 10px;
+    
+    border-radius: 10px;
+}
+
+#navbar li a {
+    
+    text-decoration: none;
+    color: #EDE6E1;    
+   
+}
+
+#navbar li a:hover {
+    
+    color: white;
+    text-decoration: underline;
+}
+/***********************************************************
+JUMBOTRON
+***********************************************************/
+
+
+#jumbotron {
+    
+    outline: 1px dashed blue;
+}
+#jumbotron img{
+    
+        margin-left: 20%;
+
+}
+
+#jumbotron h1 {
+    
+    text-align: center;
+    margin-bottom: 1%;
+}
+
+#jumbotron h2 {
+    
+    text-align: center;
+    margin-bottom: 1%;
+}
+
+/***********************************************************
+ARTICLE
+***********************************************************/
+
+article {
+    
+    margin-top: 2%;
+    font-size: 0.8em;
+    margin-bottom: 4%;
+}
+
+
+/***********************************************************
+TABLE
+***********************************************************/
+
+#table table {
+    
+   padding-top: 3%;
+    width: 60%;
+    margin-bottom: 4%;
+   
+}
+
+tbody tr th{
+    
+    background-color: lightgray;
+}
+
+thead tr th {
+    
+      background-color: #323136;
+      color: #EDE6E1; 
+}
+
+
+
+/***********************************************************
+FOOTER 
+***********************************************************/
+
+footer {
+    
+    background-color: #323136;
+    padding-top: 1.3%;
+    overflow: hidden;
+}
+
+footer h2 {
+    
+    color: #EDE6E1;
+    padding-left: 15%;
+    margin-bottom: 1.3%;
+    margin-left: 20%;
+}
+
+footer a {
+    
+    text-decoration: none;
+    color: #EDE6E1;
+    font-size: 1.2em;
+   
+}
+
+footer li {
+    list-style: none;
+    width: 17.5%;
+    height: 4.4%;
+    line-height: 40px;
+    text-align: center;
+    border: 4px solid white;
+    background-color: #323136;
+    margin-left: 23%;
+    float:right;
+    
+    
+}
+
+footer li a {
+    display: inline-block;
+    text-decoration: none;
+    width: 118px;
+    height: 2.5%;
+    color: #EDE6E1;
+    font-weight: bold;
+    
+
+    
+    /*outline: 1px solid blue;*/
+}
+
+footer li a:hover {
+    
+    background-color: #EDE6E1;
+    color: #323136;
+}
+
+#linkez {
+    
+    width:70%;
+}
+
