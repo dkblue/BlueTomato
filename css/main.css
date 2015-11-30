@@ -8,18 +8,12 @@
     padding: 0;
 }
 
-body {
-    
-    min-height: 100%; /** TENTATIVI PER IL FOOTER STICKY **/ 
-    height: 100%;
-}
+
 
 .wrapper {
     width:940px;
     border-bottom: 1px dashed red;
     margin: 0 auto;
-    height: auto !important;
-    height: 100%;
     margin-bottom: 15%;
     
 }
@@ -123,7 +117,7 @@ ARTICLE
 article {
     
     margin-top: 2%;
-    font-size: 1em;
+    font-size: 1.4em;
     margin-bottom: 4%;
     text-align: center;
 }
@@ -167,7 +161,9 @@ footer {
     overflow: hidden;
     width:940px;            /** width / height /cambiamenti al wrapper per tentare lo sticky                                     footer **/
     margin: 0 auto;
-    height: 15%;
+    
+    position: relative; 
+    bottom: 0;
 }
 
 footer h2 {
