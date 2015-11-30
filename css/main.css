@@ -14,6 +14,7 @@
 
     border-bottom: 1px dashed red;
     margin: 0 auto;
+    width: 80%;
     
 }
 
@@ -27,8 +28,9 @@ img {
 ***********************************************************/
 
 header {
-    
+    height: 130px;
     background-color: #323136;
+    line-height: 130px;
 }
 
 hgroup {
@@ -43,9 +45,9 @@ hgroup {
 #logo {
     
     display: inline-block;
-    margin-top: 0.5%;
-    margin-left: 5%;
-    margin-bottom: 0.4%;
+    height: 105px;
+    margin-left: 50px;
+    margin-top: 12px
 }
 
 /***********************************************************
@@ -53,24 +55,20 @@ hgroup {
 ***********************************************************/
 
 #navbar {
-    
     display: inline-block;
-    float:right;
-    margin-top: 3.5%;
-    width: 60%;
+    
+    float: right;
+
 }
 
 
 #navbar li {
-    margin-bottom: 2%;
-    margin-right: 3%;
-    float:right;
+    margin-right: 50px;
+    display: inline-block;
     list-style: none;
     font-weight: bold;
     font-size: 1.2em;
-    padding: 10px;
     
-    border-radius: 10px;
 }
 
 #navbar li a {
@@ -162,12 +160,11 @@ FOOTER
 ***********************************************************/
 
 footer {
-    
+    text-align: center;
     background-color: #323136;
     padding-top: 1.3%;
     overflow: hidden;
     /** width / height /cambiamenti al wrapper per tentare lo sticky                                     footer **/
-    margin: 0 auto;
     
     position: relative; 
     bottom: 0;
@@ -176,9 +173,8 @@ footer {
 footer h2 {
     
     color: #EDE6E1;
-    padding-left: 15%;
+    
     margin-bottom: 1.3%;
-    margin-left: 20%;
 }
 
 footer a {
@@ -191,16 +187,19 @@ footer a {
 
 footer li {
     list-style: none;
-    width: 17.5%;
-    height: 4.4%;
+    height: 40px;
     line-height: 40px;
     text-align: center;
     border: 4px solid white;
     background-color: #323136;
-    margin-left: 23%;
-    float:right;
-    
-    
+}
+
+footer li:nth-child(1) {
+    float: left;
+}
+
+footer li:nth-child(2) {
+    float: right;
 }
 
 footer li a {
@@ -224,6 +223,7 @@ footer li a:hover {
 
 #linkez {
     
-    width:70%;
+    width: 50%;
+    margin: 0 auto;
 }
 
